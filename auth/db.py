@@ -8,9 +8,6 @@ from sqlalchemy.orm import DeclarativeBase
 DATABASE_URL = "sqlite+aiosqlite:///./test.db"
 
 
-# DATABASE_URL = "postgresql+asyncpg:///./test.db"
-
-
 class Base(DeclarativeBase):
     pass
 
